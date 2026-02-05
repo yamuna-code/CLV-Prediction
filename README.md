@@ -1,4 +1,4 @@
-# 🚀 AI-Driven Customer Lifetime Value (CLV) Prediction & Segmentation
+# Customer Lifetime Value (CLV) Prediction & Segmentation
 
 ## 📌 Project Overview
 This project implements a high-accuracy machine learning pipeline to predict Customer Lifetime Value (CLV) and automate Behavioral Segmentation. By combining a Random Forest Regressor with an interactive Power BI Dashboard, this tool enables businesses to identify high-value "Champions" and mitigate "At Risk" customer churn.
@@ -35,12 +35,13 @@ This project implements a high-accuracy machine learning pipeline to predict Cus
 ---
 
 ## 📂 Project Structure
-* `Project_Notebook.ipynb` — Full Python pipeline (EDA, Training, Evaluation).
-* `clv_rf_model.pkl` — Saved Random Forest model for deployment.
-* `Final_Leaderboard.csv` — Enriched 10-column dataset for BI tools.
-* `Customer_Insights.pbix` — Power BI dashboard file.
-* `requirements.txt` — List of necessary Python libraries.
-
+* `CLVprediction.ipynb` — Full end-to-end Python pipeline (EDA to Model Evaluation).
+* `CLVprediction.pbix` — Interactive Power BI Dashboard.
+* `clv_rf_model.pkl` — The serialized (saved) Random Forest model.
+* `Final_Project_Leaderboard2.csv` — Enriched output dataset used for BI visuals.
+* `train.csv` — The raw input dataset used for training.
+* `requirements.txt` — List of Python dependencies for environment setup.
+* `Screenshot 2026-01-15 200853.png` — Visual preview of the final dashboard.
 ---
 
 ## 🚀 Deployment & Future Scope
